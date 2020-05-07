@@ -37,6 +37,7 @@
           <archive>
             <manifest>
               <mainClass>me.thekodetoad.diffui.DiffUIMain</mainClass>
+              <builtBy></builtBy>
             </manifest>
           </archive>
           <descriptorRefs>
