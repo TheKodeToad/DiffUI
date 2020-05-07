@@ -37,8 +37,10 @@
           <archive>
             <manifest>
               <mainClass>me.thekodetoad.diffui.DiffUIMain</mainClass>
-              <Built-By></Built-By>
             </manifest>
+            <manifestEntries>
+              <Built-By></Built-By>
+            </manifestEntries>
           </archive>
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
