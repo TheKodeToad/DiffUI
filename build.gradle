@@ -1,0 +1,27 @@
+plugins {
+	id "java"
+	id "com.github.johnrengelman.shadow" version "7.0.0"
+}
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+	implementation "io.sigpipe:jbsdiff:1.0"
+	implementation "commons-io:commons-io:2.7"
+}
+
+group = "me.thekodetoad.diffui"
+version = "1.0"
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+shadowJar {
+	manifest {
+		atrributes(
+			"Main-Class": "me.thekodetoad.thekodetoad.diffui.DiffUIMain"
+		)
+	}
+}

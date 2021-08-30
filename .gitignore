@@ -1,0 +1,31 @@
+# from https://github.com/FabricMC/fabric-example-mod/blob/1.17/.gitignore
+
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
